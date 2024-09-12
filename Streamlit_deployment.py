@@ -5,7 +5,7 @@ from keras.models import load_model
 from PIL import Image
 
 # Load the trained model
-file_path = 'models/face_mask_detection_model.keras'
+file_path = 'face_mask_detection_model.keras'
 model = load_model(file_path)
 
 # Define class names
